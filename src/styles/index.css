@@ -1,0 +1,55 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "./Chat.css";
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.home {
+  width: 100vw;
+  margin: auto;
+  height: 100vh;
+  top: 50%;
+  position: absolute;
+}
+
+.title > h2 {
+  margin: 10px 0;
+  text-align: left;
+  font-size: 18px;
+  position: relative;
+}
+
+.title > h2:after {
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  vertical-align: bottom;
+  width: 100%;
+  margin-right: -100%;
+  margin-left: 10px;
+  border-top: 1px solid white;
+  position: absolute;
+  bottom: -1em;
+  left: -0.5em;
+}
+
+.main-wrapper {
+  height: 100vh;
+  color: #fff;
+  overflow: hidden;
+}
+
+.left-wrapper {
+  position: relative;
+  background-color: #12243a;
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 20px 10px;
+  /* margin-left: 10px; */
+}
+
+.left-wrapper::-webkit-scrollbar {
+  display: none;
+}

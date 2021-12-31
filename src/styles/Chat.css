@@ -1,0 +1,96 @@
+.search-input {
+  position: relative;
+}
+
+.search-input > input {
+  background: #0b2c55;
+  border: none;
+  width: 90%;
+  padding-left: 41px;
+  color: #fff;
+}
+
+.search-input > svg {
+  position: absolute;
+  left: 22px;
+  top: 2px;
+}
+
+.add-contact > button {
+  border: none;
+  background: #0b2c55;
+  color: #fff;
+}
+
+.right-chat-wrapper {
+  color: #fff;
+  padding-left: 0;
+}
+
+.chat-header {
+  min-height: 50px;
+  position: relative;
+  background-color: #12243a;
+}
+
+section.chat-body {
+  height: 100%;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+
+.sample-cc-img {
+  width: 250px;
+  margin: auto;
+}
+
+.contact-list {
+  cursor: pointer;
+}
+
+.contact-list > img {
+  width: 72px;
+  border-radius: 50%;
+}
+
+.contact-name-list {
+  text-align: left;
+  font-size: 15px;
+}
+
+.contact-name-list > p {
+  margin: 0;
+}
+
+.input-box-custom {
+  border: none;
+  border-bottom: 1px solid #999999;
+}
+
+input.message-text {
+  width: 100%;
+}
+
+.message-form-group {
+  bottom: 50px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: flex;
+}
+
+.message-sec {
+  height: 90vh;
+  overflow: hidden scroll;
+  color: #000;
+  padding: 17px;
+  padding-bottom: 0;
+}
+
+.message-sec img {
+  width: 59px;
+  border-radius: 50%;
+}
